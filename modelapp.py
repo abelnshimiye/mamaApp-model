@@ -18,9 +18,9 @@ import requests
 # import boto3
 # import os
 
-# heroku config:set AWS_ACCESS_KEY_ID= 'AKIAYIJ6NGBHOB2WBN4R' AWS_SECRET_ACCESS_KEY= '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'
+# heroku config:set AWS_ACCESS_KEY_ID=AKIAYIJ6NGBHOB2WBN4R AWS_SECRET_ACCESS_KEY=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
 
-# heroku config:set S3_BUCKET_NAME='mamaappmodel'
+# heroku config:set S3_BUCKET_NAME=mamaappmodel
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
