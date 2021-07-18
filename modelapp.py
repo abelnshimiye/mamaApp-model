@@ -31,7 +31,7 @@ st.text("White all your symptoms")
 @st.cache(allow_output_mutation = True)
 
 def load_model():
-    model = joblib.load('bert_qa_custom.joblib')
+    model = joblib.load('https://mamaappmodel.s3.us-east-2.amazonaws.com/modelupload/bert_qa_custom.joblib')
     return model
 
 with st.spinner('loading Model into Memory...'):
